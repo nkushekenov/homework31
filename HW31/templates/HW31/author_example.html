@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Пример использования диспетчеров и наборов записей</title>
+</head>
+<body>
+    <h1>Пример использования диспетчеров и наборов записей</h1>
+    <ul>
+        {% for author in female_authors %}
+            <li>{{ author.name }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
